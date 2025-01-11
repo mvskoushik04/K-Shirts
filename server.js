@@ -9,7 +9,7 @@ import session from 'express-session';
 //express = require('express');
 const app = express();
 const port = 3000;
-//cors = require('cors');
+cors = require('cors');
 //mysql = require('mysql');
 
 // Middleware
