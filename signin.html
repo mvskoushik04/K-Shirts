@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In / Sign Up - K-Shirts</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sign In Form -->
+        <div class="form-container" id="sign-in-form">
+            <h2>Sign-In</h2>
+            <form id="sign-in" action="/signin" method="POST" >
+                <label for="phone">Mobile phone number</label>
+                <input type="text" id="phone" name="phone" placeholder="Enter your Phone number" required>
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                
+                <button type="submit">Sign In</button>
+                <div class="options">
+                    <a href="#">Forgot your password?</a>
+                </div>
+            </form>
+            <p id="message" style="color: red; font-weight: bold;"></p>
+
+            <p>New to K-Shirts? <a href="signup.html" onclick="toggleForm('sign-up')">Create your K-Shirt Account</a></p>
+        </div>
+
+         <!-- Sign Up Form -->
+         
+    </div>
+
+    <script src="signin.js"></script>
+</body>
+</html>
